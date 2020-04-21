@@ -1,0 +1,110 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.text-holder {
+  position: relative;
+  margin: auto;
+  height: 533px;
+  width: 676px;
+  background-color: #524d4d;
+}
+
+.abs {
+  position: absolute;
+}
+
+.text-holder div {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.right-holder {
+  position: relative;
+  float: right;
+  top: 129px;
+  right: 41px;
+  height: 272px;
+  width: 80px;
+}
+
+.text1::before {
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -50px;
+}
+
+.text1 {
+  font-family: "Londrina Outline", sans-serif;
+  font-size: 550px;
+}
+
+.text2 {
+  top: 80px;
+  left: 32px;
+  font-size: 52px;
+  font-family: "Seymour One", sans-serif;
+}
+
+.text3, .text4, .text5, .text6, .text7, .text9, .text10 {
+  font-family: "Patrick Hand", sans-serif;
+  font-size: 30px;
+}
+
+.text3, .text8, .text10 {
+  font-family: "Coming Soon", cursive;
+  font-size: 45px;
+}
+
+.right-holder div {
+  width: 190px;
+}
+
+.text3 {
+  top: -10px;
+  font-size: 55px;
+}
+
+.text4 {
+  top: 45px;
+  left: 13px;
+}
+
+.text5 {
+  top: 74px;
+}
+
+.text6 {
+  top: 102px;
+}
+
+.text7 {
+  top: 132px;
+  left: -7px;
+}
+
+.text8 {
+  top: 158px;
+  left: 5px;
+  font-size: 45px;
+}
+
+.text9 {
+  top: 199px;
+  left: -4px;
+}
+
+.text10 {
+  top: 221px;
+  left: -15px;
+}
